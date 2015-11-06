@@ -49,6 +49,11 @@ body.padded {
 
 // Footer
 
+.footer .ui.segment {
+    border-radius: 0;
+    margin: 0;
+}
+
 .footer .ui.inverted.blue.segment {
     background-image: linear-gradient(to bottom, #4b94e6 0px, #1f79df 100%);
 }

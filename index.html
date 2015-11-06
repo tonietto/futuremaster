@@ -7,180 +7,1530 @@
         <meta name="description" content="Semantic UI Theme for Futurecom">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, minimal-ui">
 
-        <!-- <link rel="icon" href="/images/favicon/favicon_16px.png" sizes="16x16">
-        <link rel="icon" href="/images/favicon/favicon_32px.png" sizes="32x32">
-        <link rel="icon" href="/images/favicon/favicon_64px.png" sizes="64x64">
-        <link rel="icon" href="/images/favicon/favicon_128px.png" sizes="128x128">
-        <meta name="msapplication-TileImage" content="/images/favicon/tile.png" />
-        <meta name="msapplication-TileColor" content="#00b3ea" /> -->
-
         <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
 
         <link rel="stylesheet" href="assets/semantic/dist/semantic.min.css">
         <script src="assets/semantic/dist/semantic.min.js" charset="utf-8"></script>
 
         <style>
-            #informa.segment {
-                background-color: #525A5C !important;
-                border-radius: 0;
-                margin-bottom: 0 !important;
+            .menu.toggle.link {
+                display: none !important;
             }
             
-            #informa a {
+            .vertical.sidebar.menu {
+                font-size: 1.05em;
+                background-image: linear-gradient(to right, rgb(51, 51, 51) 68%, rgb(44, 44, 44) 86%, rgb(38, 38, 38) 100%);
+            }
+            
+            main {
+                margin-bottom: 40px;
+            }
+            
+            .card .header i {
+                font-size: 2em;
+                margin-bottom: 1em;
+            }
+            
+            #informa.segment {
+                border-radius: 0;
+                margin-bottom: 0 !important;
+                padding-top: 0.4em;
+                padding-bottom: 0.4em;
+            }
+            
+            .informa.segment {
+                background-color: #525A5C !important;
                 color: #fff;
+            }
+            
+            #informa .container {
+                display: none;
+                padding-top: 2.5em;
+                padding-bottom: 2.5em;
+            }
+            
+            #informa a,
+            .informa a {
+                color: #fff;
+            }
+            
+            @media screen and (max-width: 996px) {
+                .main.menu .desktop.only {
+                    display: none !important;
+                }
+                .main.menu .header.item i {
+                    display: none;
+                }
+                .menu.toggle.link {
+                    display: -webkit-box !important;
+                    display: -webkit-flex !important;
+                    display: -ms-flexbox !important;
+                    display: flex !important;
+                }
             }
 
         </style>
     </head>
 
     <body>
-        <div id="informa" class="ui center aligned inverted top attached segment">
-            <a href="#">
-                Informa <i class="down caret icon"></i>
-            </a>
-        </div>
-
-        <nav class="ui inverted blue main menu">
-            <div class="menu toggle link icon item">
-                <i class="sidebar icon"></i>
-            </div>
-            <div class="header item">
-                Futuremaster
-            </div>
-            <div class="right menu">
-                <a class="active language item" href="/en/29">EN</a>
-                <a class="language item" href="/es/29">ES</a>
-                <a class="language item" href="/pt/29">PT</a>
-            </div>
-        </nav>
-
-        <header>
-            <div class="ui grid container">
-                <div class="column">
-                    <h1 class="ui center aligned dividing header">FUTURECOM</h1>
+        <div class="ui sidebar inverted vertical menu">
+            <div class="ui item">
+                <div class="header">O Evento</div>
+                <div class="menu">
+                    <a class="active item">
+                        App
+                    </a>
+                    <a class="item">
+                        Fotos
+                    </a>
+                    <a class="item">
+                        Sobre o Futurecom
+                    </a>
+                    <a class="item">
+                        Apoio Institucional
+                    </a>
+                    <a class="item">
+                        Fornecedores Oficiais
+                    </a>
                 </div>
             </div>
-        </header>
+            <div class="ui item">
+                <div class="header">O Congresso</div>
+                <div class="menu">
+                    <a class="active item">
+                        Item
+                    </a>
+                    <a class="item">
+                        Item
+                    </a>
+                </div>
+            </div>
+            <div class="ui item">
+                <div class="header">Imprensa</div>
+                <div class="menu">
+                    <a class="active item">
+                        Item
+                    </a>
+                    <a class="item">
+                        Item
+                    </a>
+                </div>
+            </div>
+            <div class="ui item">
+                <div class="header">Inovações</div>
+                <div class="menu">
+                    <a class="active item">
+                        Item
+                    </a>
+                    <a class="item">
+                        Item
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="item">Contato</a>
+            <a href="#" class="item">Blog</a>
+            <a href="#" class="item">All Year</a>
+            <a href="#" class="item">TV</a>
+        </div>
 
-        <main>
-            <div class="ui grid">
-                <div class="column">
-                    <div class="ui grid justified container">
+        <div class="pusher">
+            <div id="informa" class="ui center aligned inverted top attached informa segment">
+                <div class="ui left aligned equal width inverted divided grid container">
+                    <div class="row">
                         <div class="column">
                             <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
+                                Futurecom is part of the Global Exhibitions Division of Informa PLC
                             </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam ei, propriae
-                                definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex.
-                                Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine
-                                reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans
-                                quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare
-                                id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
-                            </p>
+                            <div class="ui horizontal list">
+                                <a href="http://informa.com/" target="_blank" class="item">
+                                    Informa PLC
+                                </a>
+                                <a href="http://informa.com/About-Us/" target="_blank" class="item">
+                                    ABOUT US
+                                </a>
+                                <a href="http://informa.com/Investors/" target="_blank" class="item">
+                                    INVESTOR RELATIONS
+                                </a>
+                                <a href="http://informa.com/Talent/" target="_blank" class="item">
+                                    TALENT
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            This site is operated by a business or businesses owned by Informa PLC and all copyright resides with them. Informa PLC's registered office is 5 Howick Place, London SW1P 1WG. Registered in England and Wales. Number 3099067.
                         </div>
                     </div>
                 </div>
+                <a href="#">
+                    <img src="assets/images/informa.gif" alt="informa" /> <i class="down caret icon"></i>
+                </a>
             </div>
-        </main>
 
-        <footer class="footer">
-            <div class="ui inverted vertical footer segment">
-                <div class="ui stackable page grid">
-                    <div class="twelve wide left aligned column">
-                        1998-2015 © Futurecom Todos os direitos reservados. Organization and Promotion: Provisuale | Informa.
+            <nav class="ui inverted blue main borderless menu">
+                <div class="ui container">
+                    <div class="menu toggle link icon item">
+                        <i class="sidebar icon"></i>
                     </div>
-                    <div class="four wide right aligned column">
-                        <span class="ui blue label">
-                            Futurecom Agenda 2.1.15
-                        </span>
+                    <a href="#" class="header item">
+                        <i class="icon-futurecom big icon"></i> Futuremaster
+                    </a>
+                    <div class="left desktop only menu">
+                        <div class="ui dropdown item">
+                            O Evento
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    App
+                                </a>
+                                <a class="item">
+                                    Fotos
+                                </a>
+                                <div class="ui divider"></div>
+                                <a class="item">
+                                    Sobre o Futurecom
+                                </a>
+                                <a class="item">
+                                    Apoio Institucional
+                                </a>
+                                <div class="ui divider"></div>
+                                <a class="item">
+                                    Fornecedores Oficiais
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown item">
+                            O Congresso
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    Item
+                                </a>
+                                <a class="item">
+                                    Item
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown item">
+                            Imprensa
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    Item
+                                </a>
+                                <a class="item">
+                                    Item
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown item">
+                            Inovações
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    Item
+                                </a>
+                                <a class="item">
+                                    Item
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="item">Contato</a>
+                        <a href="#" class="item">Blog</a>
+                        <a href="#" class="item">All Year</a>
+                        <a href="#" class="item">TV</a>
+                    </div>
+                    <div class="ui right floated compact dropdown item">
+                        PT
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item">
+                                EN
+                            </a>
+                            <a class="item">
+                                ES
+                            </a>
+                            <a class="active item">
+                                PT
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </nav>
+
+            <header>
+                <div class="ui grid container">
+                    <div class="column">
+                        <h1 class="ui center aligned dividing header">FUTURECOM</h1>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="ui grid">
+                    <div class="row">
+                        <div class="column">
+                            <div class="ui grid justified container">
+                                <div class="column">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
+                                        mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam
+                                        ei, propriae definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale
+                                        viris utamur ius ex. Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian
+                                        temporibus. Sit at adhuc latine reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior
+                                        vim. Id offendit omittantur reformidans quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit.
+                                        Esse altera aliquip vel ei, sit wisi veri repudiare id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his,
+                                        est cu scripta denique mediocrem.
+                                    </p>
+                                    <div class="ui six centered doubling stackable cards">
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-futurecom icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-futurecom</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-blog icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-blog</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-app icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-app</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-home icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-home</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-menu icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-menu</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-en icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-en</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-es icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-es</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-pt icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-pt</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-mapa icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-mapa</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-compartilhar icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-compartilhar</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-nova-janela icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-nova-janela</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-cima icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-cima</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-direita icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-direita</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-baixo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-baixo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-esquerda icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-esquerda</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-cima icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-cima</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-direita icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-direita</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-baixo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-baixo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-esquerda icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-esquerda</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-cima icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-cima</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-direita icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-direita</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-baixo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-baixo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-esquerda icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-esquerda</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-cima-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-cima-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-direita-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-direita-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-baixo-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-baixo-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-horario-esquerda-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-horario-esquerda-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-cima-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-cima-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-direita-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-direita-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-baixo-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-baixo-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-anti-horario-esquerda-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-anti-horario-esquerda-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-diagonal-cima-direita icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-diagonal-cima-direita</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-diagonal-cima-esquerda icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-diagonal-cima-esquerda</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-diagonal-baixo-direita icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-diagonal-baixo-direita</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-diagonal-baixo-esquerda icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-diagonal-baixo-esquerda</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-download icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-download</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-upload icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-upload</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-maximizar icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-maximizar</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-minimizar icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-minimizar</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-setas-circulo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-setas-circulo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-check icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-check</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-tres-tracos icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-tres-tracos</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-cima-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-cima-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-direita-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-direita-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-baixo-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-baixo-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-esquerda-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-esquerda-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-dowload-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-dowload-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-cima-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-cima-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-direita-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-direita-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-baixo-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-baixo-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-esquerda-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-esquerda-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-esquerda-04 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-esquerda-04</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-seta-direita-04 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-seta-direita-04</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-cima icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-cima</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-direita icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-direita</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-baixo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-baixo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-esquerda icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-esquerda</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulos-vertical icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulos-vertical</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-cima-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-cima-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-direita-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-direita-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-baixo-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-baixo-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-esquerda-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-esquerda-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulos-vertical-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulos-vertical-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-cima-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-cima-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-direita-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-direita-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-baixo-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-baixo-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-triangulo-esquerda-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-triangulo-esquerda-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-xis icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-xis</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-xis-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-xis-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-mais icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-mais</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-mais-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-mais-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-menos icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-menos</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-menos-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-menos-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-estrela icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-estrela</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-estrela-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-estrela-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-coracao icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-coracao</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-coracao-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-coracao-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-info icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-info</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-info-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-info-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-exclamacao icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-exclamacao</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-exclamacao-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-exclamacao-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cifrao icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cifrao</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cifrao-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cifrao-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-flamula icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-flamula</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-flamula-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-flamula-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-flamula-estrela icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-flamula-estrela</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-flamula-estrela-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-flamula-estrela-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-flamula-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-flamula-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-sino icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-sino</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-sino-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-sino-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cruz icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cruz</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cruz-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cruz-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-pino icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-pino</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-pin-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-pin-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-homem icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-homem</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-homem-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-homem-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-homem-mais icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-homem-mais</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-homem-menos icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-homem-menos</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-homem-gravata icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-homem-gravata</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-figura-homem icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-figura-homem</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-figura-mulher icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-figura-mulher</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-homem-mulher icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-homem-mulher</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cadeira-rodas icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cadeira-rodas</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-gravida icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-gravida</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-idoso icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-idoso</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-massagem icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-massagem</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-velocimetro icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-velocimetro</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-tabela icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-tabela</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-documento icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-documento</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-lupa icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-lupa</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-clipe icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-clipe</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-lapis icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-lapis</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-lapis-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-lapis-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-lixeira icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-lixeira</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-lixeira-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-lixeira-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-disquete icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-disquete</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-disquete-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-disquete-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-proibido icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-proibido</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-nuvem icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-nuvem</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-nuvem-download icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-nuvem-download</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-nuvem-upload icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-nuvem-upload</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-wifi icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-wifi</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-wifi-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-wifi-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-globo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-globo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-impressora icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-impressora</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-maquina-escrever icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-maquina-escrever</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-flipchart icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-flipchart</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-engrenagem icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-engrenagem</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-engrenagem-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-engrenagem-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-salva-vidas icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-salva-vidas</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-escudo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-escudo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cadeado icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cadeado</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cadeado-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cadeado-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-pasta icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-pasta</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-pasta-mais icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-pasta-mais</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-pasta-menos icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-pasta-menos</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-link icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-link</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-calendario icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-calendario</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-relogio icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-relogio</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-telefone icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-telefone</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-celular icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-celular</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-sim-card icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-sim-card</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-sim-card-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-sim-card-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-computador icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-computador</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-envelope icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-envelope</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-envelope-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-envelope-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-etiqueta icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-etiqueta</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-grafico icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-grafico</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-grafico-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-grafico-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-grafico-03 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-grafico-03</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-balao icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-balao</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-balao-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-balao-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-balao-voip icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-balao-voip</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-aviao icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-aviao</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-onibus icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-onibus</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-caminhao icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-caminhao</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-van icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-van</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-carro icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-carro</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-taxi icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-taxi</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-motocicleta icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-motocicleta</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-segway icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-segway</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-genie icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-genie</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-carrinho icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-carrinho</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-carrinho-02 icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-carrinho-02</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-ingresso icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-ingresso</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-ingresso-bts icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-ingresso-bts</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-ingresso-congresso icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-ingresso-congresso</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-mala icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-mala</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-credencial icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-credencial</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-estande icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-estande</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-microfone icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-microfone</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-fone icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-fone</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-medalha icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-medalha</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-valize icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-valize</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-escada-cima icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-escada-cima</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-escada-baixo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-escada-baixo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-maos icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-maos</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cafe icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cafe</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-bandeja icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-bandeja</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-sapato icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-sapato</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-raio icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-raio</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-bateria icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-bateria</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-capacete icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-capacete</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-caixa icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-caixa</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-corneta icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-corneta</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-atomo icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-atomo</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-erlenmeyer icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-erlenmeyer</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-codigo-barras icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-codigo-barras</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-cartao-credito icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-cartao-credito</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-visa icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-visa</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-master icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-master</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-amex icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-amex</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-facebook icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-facebook</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-twitter icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-twitter</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-youtube icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-youtube</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-instagram icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-instagram</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-flickr icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-flickr</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-linkedin icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-linkedin</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-google-plus icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-google-plus</code>
+                                            </div>
+                                        </div>
+                                        <div class="ui card">
+                                            <div class="content">
+                                                <div class="center aligned header"><i class="icon-pdf icon"></i></div>
+                                                <code class="ui bottom attached center aligned label">icon-pdf</code>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div class="ui inverted black footer segment">
+                    <div class="ui stackable grid container">
+                        <div class="right aligned column">
+                            <span class="ui blue label">
+                                Futuremaster SUI 1.0
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui informa footer segment">
+                    <div class="ui stackable equal width padded page grid">
+                        <div class="left aligned column">
+                            <img src="assets/images/informa_exhibitions.png" alt="Informa Exhibitions">
+                        </div>
+                        <div class="right aligned column">
+                            Copyright © 2015. All rights reserved. Informa Exhibitions.
+                            <br />
+                            <a href="http://www.informaexhibitions.com/privacy-policy/">
+                                Privacy and Cookie Policy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </body>
 
     <script charset="utf-8">
-        // menu e rodapé fixos
+        $('.ui.dropdown').dropdown();
+
+        $('.toggle.menu').on('click', function() {
+            $('.ui.sidebar').sidebar('show');
+            $('.ui.dropdown').dropdown();
+        });
+
+        // rodapé fixo
         $('main')
             .visibility({
-                once: false,
-                continuous: true,
-                // remove tudo
+                // libera o rodapé
                 onTopVisible: function() {
-                    $('.main.menu').removeClass('fixed');
-                    $('.main.menu').removeClass('floater');
-                    $('body').removeClass('padded');
                     $('footer').removeClass('sticky');
                 },
                 // fixa o rodapé
@@ -188,15 +1538,53 @@
                     $('footer').addClass('sticky');
                 },
                 onTopPassed: function(calculations) {
-                    $('.main.menu').addClass('floater'); // prepara o menu para transição
                     $('footer').removeClass('sticky'); // libera o rodapé
+                }
+            });
+        // menu fixo
+        $('main')
+            .visibility({
+                once: false,
+                continuous: true,
+                // remove tudo
+                onTopVisible: function() {
+                    $('nav.main.menu').removeClass('fixed');
+                    $('nav.main.menu').removeClass('floater');
+                    $('body').removeClass('padded');
+                },
+                onTopPassed: function(calculations) {
+                    $('nav.main.menu').addClass('floater'); // prepara o menu para transição (css)
 
                     if (calculations.percentagePassed > 0.1) {
-                        $('.main.menu').addClass('fixed'); // fixa o menu com transição (css)
-                        $('body').addClass('padded');
+                        $('nav.main.menu').addClass('fixed'); // fixa o menu com transição (css)
+                        $('body').addClass('padded'); // corrige a margin-top de body
                     }
                 }
             });
+
+        // informa ribbon
+        $(function() {
+            // esconde o conteúdo ao clicar fora da âncora
+            $('html').click(function() {
+                var info = $('#informa .container');
+                var caret = $('#informa i.caret');
+
+                caret.toggleClass('up', 'down');
+
+                info.slideUp(); // esconde o conteúdo
+            });
+
+            // mostra/esconde o conteúdo ao clicar na âncora
+            $('#informa a').click(function(event) {
+                var info = $('#informa .container');
+                var caret = $('#informa i.caret');
+
+                caret.toggleClass('up', 'down');
+
+                info.slideToggle(); // mostra ou esconde o conteúdo
+                event.stopPropagation(); // ignora o clique em html que esconderia o conteúdo
+            });
+        });
 
     </script>
 
