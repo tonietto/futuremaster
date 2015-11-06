@@ -1,0 +1,91 @@
+/*******************************
+         Site Settings
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerFontWeight : bold;
+
+@h1               : 3rem;
+@h2               : 1.714rem;
+@h3               : 1.28rem;
+@h4               : 1.071rem;
+@h5               : 1rem;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@black            : #1B1C1D;
+@blue             : #1F79DF;
+@green            : #21C01A;
+@grey             : #CCCCCC;
+@orange           : #FF7F00;
+@pink             : #D9499A;
+@purple           : #564F8A;
+@red              : #EF5B46;
+@teal             : #00B5AD;
+@yellow           : #EBBA11;
+
+/*---  Light Colors  ---*/
+@lightBlack       : #333333;
+@lightBlue        : #45AFDF;
+@lightGreen       : #5EC079;
+@lightOrange      : #FFB74D;
+@lightPink        : #FF8EDF;
+@lightPurple      : #CDC6FF;
+@lightRed         : #EF8939;
+@lightTeal        : #6DFFFF;
+@lightYellow      : #EBD621;
+
+/*---   Neutrals  ---*/
+@fullBlack        : #000000;
+@darkGrey         : #AAAAAA;
+@lightGrey        : #DCDDDE;
+@offWhite         : #FAFAFA;
+@darkWhite        : #F0F0F0;
+@white            : #FFFFFF;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@secondaryColor      : @grey;
+@lightSecondaryColor : @lightGrey;
+
+/*-------------------
+        Sizes
+--------------------*/
+
+/*-------------------
+        Page
+--------------------*/
+
+@pageBackground      : #F2F2F2;
+
+/*-------------------
+      Paragraph
+--------------------*/
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : #1F79DF;
+
+/*-------------------
+  Highlighted Text
+--------------------*/
+
+@highlightBackground : rgba(0, 185, 242, 0.4);

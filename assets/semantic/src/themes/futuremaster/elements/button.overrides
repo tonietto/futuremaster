@@ -1,0 +1,7 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.secondary.button, .ui.secondary.button:hover, .ui.secondary.button:active, .ui.secondary.button:focus {
+    color: rgba(0, 0, 0, 0.8);
+}

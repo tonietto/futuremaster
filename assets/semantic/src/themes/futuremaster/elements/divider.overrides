@@ -1,0 +1,3 @@
+.ui.divider:not(.vertical):not(.horizontal), .ui.horizontal.divider::after, .ui.horizontal.divider::before {
+    border-bottom: none;
+}

@@ -1,0 +1,97 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+/* Style */
+@backgroundColor: #FFF;
+
+/* Text */
+@fontWeight: normal;
+@textColor: #333;
+// @textShadow: 0px 1px 0px #FFF;
+
+/* Internal Shadow */
+@shadowBoxShadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075);
+
+/* Box Shadow */
+@borderBoxShadowColor: rgba(0, 0, 0, 0.15);
+@borderBoxShadow: 0px 0px 0px @borderBoxShadowWidth @borderBoxShadowColor inset;
+
+/* Icon */
+
+/* Loader */
+
+/*-------------------
+        Group
+--------------------*/
+
+/*-------------------
+        States
+--------------------*/
+
+/* Hovered */
+@hoverBackgroundColor: #E0E0E0;
+
+/* Focused */
+
+/* Pressed Down */
+@downBackgroundColor: #E0E0E0;
+@downPressedShadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset !important;
+
+/* Active */
+@activeBackgroundColor: #E0E0E0;
+@activeBoxShadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset !important;
+
+/* Active + Hovered */
+@activeHoverBackgroundColor: @activeBackgroundColor;
+
+/* Loading */
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Or */
+@orText: 'ou';
+
+@orLineHeight: (@orCircleSize - 0.1em);
+
+/* Icon */
+
+/* Labeled Icon */
+
+/* Inverted */
+
+/* Basic */
+
+/* Basic Hover */
+
+/* Basic Down */
+
+/* Basic Active */
+
+/* Basic Inverted */
+
+/* Basic Group */
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Colors */
+@coloredBackgroundImage: none;
+@coloredBoxShadow: @shadowBoxShadow;
+
+/* Ordinality */
+
+/* Compact */
+
+/* Attached */
+
+/* Floated */
+
+/* Animated */

@@ -1,0 +1,3 @@
+.ui.inverted.blue.segment {
+    background-image: linear-gradient(to bottom, #4B94E6 0px, #1F79DF 100%);
+}
