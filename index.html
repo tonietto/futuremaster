@@ -260,7 +260,9 @@
             <header>
                 <div class="ui grid container">
                     <div class="column">
-                        <h1 class="ui center aligned dividing header">FUTURECOM</h1>
+                        <h1 class="ui center aligned dividing header">
+                            FUTURECOM
+                        </h1>
                     </div>
                 </div>
             </header>
@@ -1569,7 +1571,8 @@
                 var info = $('#informa .container');
                 var caret = $('#informa i.caret');
 
-                caret.toggleClass('up', 'down');
+                caret.removeClass( 'up' );
+                caret.addClass( 'down' );
 
                 info.slideUp(); // esconde o conteúdo
             });

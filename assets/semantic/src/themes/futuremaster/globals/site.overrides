@@ -46,6 +46,10 @@ body.padded {
     color: #0041ab;
 }
 
+a, a:hover {
+    transition: all @defaultDuration @defaultEasing;
+}
+
 
 // Footer
 

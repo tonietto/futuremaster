@@ -83,6 +83,7 @@
 --------------------*/
 
 @linkColor           : #1F79DF;
+@linkHoverColor      : darken(saturate(@linkColor, 20), 35, relative);
 
 /*-------------------
   Highlighted Text

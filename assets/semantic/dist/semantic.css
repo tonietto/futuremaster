@@ -616,7 +616,7 @@ a {
 }
 
 a:hover {
-  color: #0566d3;
+  color: #044ea1;
   text-decoration: none;
 }
 
@@ -695,6 +695,12 @@ body.padded {
   top: -11.5%;
   left: -26.5%;
   color: #0041ab;
+}
+
+a,
+a:hover {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 .footer .ui.segment {
@@ -17866,7 +17872,7 @@ ol.ui.horizontal.list li:before,
   margin-bottom: 0em;
 }
 
-.ui.inverted.blue.segment {
+.ui.inverted.futurecom.blue.segment {
   background-image: -webkit-linear-gradient(top, #4B94E6 0px, #1F79DF 100%);
   background-image: linear-gradient(to bottom, #4B94E6 0px, #1F79DF 100%);
 }
