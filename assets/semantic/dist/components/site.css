@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.1.5 - Site
+ * # Semantic UI 2.1.6 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -107,7 +107,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #0566d3;
+  color: #044ea1;
   text-decoration: none;
 }
 
@@ -178,6 +178,11 @@ body.padded {
   left: -26.5%;
   color: #0041ab;
 }
+a,
+a:hover {
+  -webkit-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+}
 .footer .ui.segment {
   border-radius: 0;
   margin: 0;
@@ -189,6 +194,9 @@ body.padded {
 .footer .ui.inverted.black.segment,
 .footer .ui.inverted.segment {
   background-color: #333 !important;
+}
+.footer .inverted.list a:hover {
+  color: #fff !important;
 }
 footer.sticky {
   position: fixed;

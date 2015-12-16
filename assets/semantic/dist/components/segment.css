@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.1.5 - Segment
+ * # Semantic UI 2.1.6 - Segment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -744,7 +744,7 @@
 .ui.segment[class*="bottom attached"]:last-child {
   margin-bottom: 0em;
 }
-.ui.inverted.blue.segment {
+.ui.inverted.futurecom.blue.segment {
   background-image: -webkit-linear-gradient(top, #4B94E6 0px, #1F79DF 100%);
   background-image: linear-gradient(to bottom, #4B94E6 0px, #1F79DF 100%);
 }

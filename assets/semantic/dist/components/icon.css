@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.1.5 - Icon
+ * # Semantic UI 2.1.6 - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -537,8 +537,8 @@ for instance `lemon icon` not `lemon outline icon` since there is only one lemon
 
 @font-face {
   font-family: FutureGlyphs;
-  src: url(themes/futuremaster/assets/fonts/FutureGlyphs.eot);
-  src: url(themes/futuremaster/assets/fonts/FutureGlyphs.eot?#iefix) format('embedded-opentype'), url(themes/futuremaster/assets/fonts/FutureGlyphs.woff2) format('woff2'), url(themes/futuremaster/assets/fonts/FutureGlyphs.woff) format('woff'), url(themes/futuremaster/assets/fonts/FutureGlyphs.ttf) format('truetype'), url(themes/futuremaster/assets/fonts/FutureGlyphs.svg#icons) format('svg');
+  src: url('http://pt.futurecom.com.br/assets/semantic_ui/dist/themes/futuremaster/assets/fonts/FutureGlyphs.eot');
+  src: url('/assets/fonts/FutureGlyphs.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/FutureGlyphs.woff') format('woff'), url('/assets/fonts/FutureGlyphs.ttf') format('truetype'), url('/assets/fonts/FutureGlyphs.svg#icons') format('svg');
   font-style: normal;
   font-weight: 400;
   font-variant: normal;
