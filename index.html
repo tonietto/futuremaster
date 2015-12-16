@@ -73,6 +73,9 @@
     </head>
 
     <body>
+        <div class="ui page inverted dimmer">
+            <div class="ui text large loader">Clique para continuar</div>
+        </div>
         <div class="ui sidebar inverted vertical menu">
             <div class="ui item">
                 <div class="header">O Evento</div>
@@ -257,6 +260,97 @@
                 </div>
             </nav>
 
+            <nav class="ui fixed borderless main hidden small menu" style="opacity: 0.95; display: hidden;">
+                <div class="ui container">
+                    <div class="menu toggle link icon item">
+                        <i class="sidebar icon"></i>
+                    </div>
+                    <a href="#" class="header item">
+                        <i class="icon-futurecom big icon"></i> Futuremaster
+                    </a>
+                    <div class="left desktop only menu">
+                        <div class="ui dropdown item">
+                            O Evento
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    App
+                                </a>
+                                <a class="item">
+                                    Fotos
+                                </a>
+                                <div class="ui divider"></div>
+                                <a class="item">
+                                    Sobre o Futurecom
+                                </a>
+                                <a class="item">
+                                    Apoio Institucional
+                                </a>
+                                <div class="ui divider"></div>
+                                <a class="item">
+                                    Fornecedores Oficiais
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown item">
+                            O Congresso
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    Item
+                                </a>
+                                <a class="item">
+                                    Item
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown item">
+                            Imprensa
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    Item
+                                </a>
+                                <a class="item">
+                                    Item
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown item">
+                            Inovações
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="active item">
+                                    Item
+                                </a>
+                                <a class="item">
+                                    Item
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="item">Contato</a>
+                        <a href="#" class="item">Blog</a>
+                        <a href="#" class="item">All Year</a>
+                        <a href="#" class="item">TV</a>
+                    </div>
+                    <div class="ui right floated compact dropdown item">
+                        PT
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a class="item">
+                                EN
+                            </a>
+                            <a class="item">
+                                ES
+                            </a>
+                            <a class="active item">
+                                PT
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
             <header>
                 <div class="ui grid container">
                     <div class="column">
@@ -274,14 +368,14 @@
                             <div class="ui grid justified container">
                                 <div class="column">
                                     <p>
-                                        Lorem <a href="#">ipsum</a> dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has ad vitae noluisse moderatius, enim graece consequuntur
-                                        mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri maiorum vulputate eum id. Primis quidam equidem eam
-                                        ei, propriae definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam appellantur, quo vidit illum invidunt ex, tale
-                                        viris utamur ius ex. Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis blandit ponderum vix no, usu ea nulla apeirian
-                                        temporibus. Sit at adhuc latine reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium contentiones, ei magna liber instructior
-                                        vim. Id offendit omittantur reformidans quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel ad utinam appareat, at novum petentium sit.
-                                        Esse altera aliquip vel ei, sit wisi veri repudiare id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere dissentiunt, iudicabit corrumpit ne his,
-                                        est cu scripta denique mediocrem.
+                                        Lorem <a href="#">ipsum</a> dolor sit amet, prima vituperatoribus no pri. Mel cu elit corrumpit mnesarchum. Ut sea quaeque equidem sadipscing, mel an meis vidit. Brute quaerendum in sit, ad liber utroque qui. Has
+                                        ad vitae noluisse moderatius, enim graece consequuntur mea ex. Adhuc fabulas inermis pro ex. Dicat efficiantur et quo, ei officiis necessitatibus nec. Eu ius aeque omnes, cum minimum assentior definitionem in. Veri
+                                        maiorum vulputate eum id. Primis quidam equidem eam ei, propriae definitiones ut ius. Ponderum argumentum sea cu. Usu timeam accusamus ad, sea phaedrum repudiare ut, ea etiam iusto iudico duo. Eu pri vide eloquentiam
+                                        appellantur, quo vidit illum invidunt ex, tale viris utamur ius ex. Malorum interpretaris mediocritatem ne mel, est possit singulis quaestio ne. Fastidii propriae vis ea. Solet legimus efficiantur cum in. Malis
+                                        blandit ponderum vix no, usu ea nulla apeirian temporibus. Sit at adhuc latine reprehendunt. Ex ius modus aliquip. Et suas affert eirmod has, eum recusabo eleifend no. Suscipit electram an usu, per cu nullam posidonium
+                                        contentiones, ei magna liber instructior vim. Id offendit omittantur reformidans quo, no oportere torquatos mea, eu sit omnesque facilisi salutandi. Ne paulo salutatus eam. Id eos euismod aliquam deseruisse, mel
+                                        ad utinam appareat, at novum petentium sit. Esse altera aliquip vel ei, sit wisi veri repudiare id. Nusquam oporteat est ne, est id accusam intellegebat. Qui corrumpit voluptaria scribentur eu. Eum at decore legere
+                                        dissentiunt, iudicabit corrumpit ne his, est cu scripta denique mediocrem.
                                     </p>
                                     <div class="ui six centered doubling stackable cards">
                                         <div class="ui card">
@@ -1497,7 +1591,7 @@
                     <div class="ui stackable grid container">
                         <div class="right aligned column">
                             <span class="ui blue label">
-                                Futuremaster SUI 1.0.0-RC1
+                                Futuremaster 1.0.0-RC2
                             </span>
                         </div>
                     </div>
@@ -1528,39 +1622,72 @@
             $('.ui.dropdown').dropdown();
         });
 
-        // rodapé fixo
-        $('main')
-            .visibility({
-                // libera o rodapé
-                onTopVisible: function() {
-                    $('footer').removeClass('sticky');
-                },
-                // fixa o rodapé
-                onBottomVisible: function() {
-                    $('footer').addClass('sticky');
-                },
-                onTopPassed: function(calculations) {
-                    $('footer').removeClass('sticky'); // libera o rodapé
-                }
-            });
+        $('.dimmer').dimmer('show');
+
+        $('.dimmer').click(function() {
+            $('.dimmer').dimmer('hide');
+        });
+
         // menu fixo
-        $('main')
+        var lastScrollTop = 0;
+        var scrollingUp = false;
+        var passedTop = false;
+        var transition = 'hide'; // para evitar fade in / out rápido quando não deveria
+
+        $('.ui.fixed.menu').hide();
+
+        $(window).scroll(function(event) {
+            if (passedTop === true) {
+                var st = $(this).scrollTop();
+
+                if (st > lastScrollTop) { // quando fizer scroll down
+                    if (scrollingUp === true) { // para evitar repetir a transição
+                        $('.ui.fixed.menu')
+                            .transition('stop all')
+                            .transition(transition);
+
+                        $('.ui.main.menu:not(.fixed) .dropdown').dropdown('hide'); // esconde dropdown do menu fixo
+
+                        scrollingUp = false;
+                        transition = 'hide';
+                    }
+                } else { // quando fizer scroll up
+                    if (scrollingUp === false) { // para evitar repetir a transição
+                        $('.ui.fixed.menu')
+                            .transition('stop all')
+                            .transition('slide down');
+
+                        scrollingUp = true;
+                        transition = 'slide down';
+                    }
+                }
+
+                lastScrollTop = st;
+            }
+        });
+
+        $('.main.menu:not(.fixed)')
             .visibility({
                 once: false,
-                continuous: true,
-                // remove tudo
-                onTopVisible: function() {
-                    $('nav.main.menu').removeClass('fixed');
-                    $('nav.main.menu').removeClass('floater');
-                    $('body').removeClass('padded');
+                onBottomPassed: function() {
+                    passedTop = true;
                 },
-                onTopPassed: function(calculations) {
-                    $('nav.main.menu').addClass('floater'); // prepara o menu para transição (css)
-
-                    if (calculations.percentagePassed > 0.1) {
-                        $('nav.main.menu').addClass('fixed'); // fixa o menu com transição (css)
-                        $('body').addClass('padded'); // corrige a margin-top de body
+                onBottomPassedReverse: function() {
+                    if (scrollingUp === true) { // para evitar repetir a transição
+                        $('.ui.fixed.menu').transition('slide down');
+                        $('.ui.fixed.menu .dropdown').dropdown('hide'); // esconde dropdown do menu fixo
+                        passedTop = false;
                     }
+
+                    transition = 'hide';
+                }
+            });
+
+        $('#informa')
+            .visibility({
+                once: false,
+                onBottomPassedReverse: function() {
+                    $('.ui.fixed.menu').transition('hide');
                 }
             });
 
@@ -1571,8 +1698,8 @@
                 var info = $('#informa .container');
                 var caret = $('#informa i.caret');
 
-                caret.removeClass( 'up' );
-                caret.addClass( 'down' );
+                caret.removeClass('up');
+                caret.addClass('down');
 
                 info.slideUp(); // esconde o conteúdo
             });
@@ -1588,7 +1715,5 @@
                 event.stopPropagation(); // ignora o clique em html que esconderia o conteúdo
             });
         });
-
     </script>
-
 </html>

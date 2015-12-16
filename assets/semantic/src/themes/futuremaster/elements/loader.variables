@@ -1,0 +1,6 @@
+/*******************************
+             Loader
+*******************************/
+
+@loaderLineColor: none;
+@invertedLoaderLineColor: @primaryColor;
