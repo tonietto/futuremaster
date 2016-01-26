@@ -2,8 +2,6 @@
 
 Tema de Semantic UI para o [Futurecom](http://www.futurecom.com.br).
 
-[FutureMaster no Futurecom](http://pt.futurecom.com.br/futuremaster)
-
 ### Conteúdo ###
 
 * Pequeno Index com exemplos
