@@ -1,12 +1,11 @@
 # FUTUREMASTER #
 
-Tema de Semantic UI para o [Futurecom](http://www.futurecom.com.br).
+Futurecom theme for Semantic UI.
 
-### Conteúdo ###
+### Content ###
 
-* Pequeno Index com exemplos
-* SUI com o tema:
+* SUI with FutureMaster:
     * assets/semantic/dist/semantic.min.css
     * assets/semantic/dist/semantic.min.js
-* Pasta do tema:
+* FutureMaster folder:
     * assets/semantic/src/themes/futuremaster
