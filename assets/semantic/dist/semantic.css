@@ -7637,7 +7637,7 @@ for instance `lemon icon` not `lemon outline icon` since there is only one lemon
 
 @font-face {
   font-family: FutureGlyphs;
-  src: url("http://pt.futurecom.com.br/assets/semantic_ui/dist/themes/futuremaster/assets/fonts/FutureGlyphs.eot");
+  src: url("http://pt.futurecom.com.br/assets/semantic_ui/dist/themes/futuremaster/assets/fonts/FutureGlyphs.ttf");
   src: url("/assets/fonts/FutureGlyphs.eot?#iefix") format('embedded-opentype'), url("/assets/fonts/FutureGlyphs.woff") format('woff'), url("/assets/fonts/FutureGlyphs.ttf") format('truetype'), url("/assets/fonts/FutureGlyphs.svg#icons") format('svg');
   font-style: normal;
   font-weight: 400;
@@ -16601,31 +16601,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.text.loader {
-  background-image: url("themes/futuremaster/assets/images/futurecom.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 25%;
-}
-
-.ui.mini.text.loader {
-  background-size: 12%;
-}
-
-.ui.small.text.loader {
-  background-size: 20%;
-}
-
-.ui.medium.text.loader {
-  background-size: 20% !important;
-}
-
-.ui.large.text.loader {
-  background-size: 49%;
-}
-
-.ui.inverted.dimmer .ui.text.loader,
-.ui.inverted.text.loader {
-  background-image: url("themes/futuremaster/assets/images/futurecom_inverted.png");
+  background-image: none;
 }
 
 .ui.loader:not(.text):after {
