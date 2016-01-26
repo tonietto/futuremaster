@@ -1,6 +1,6 @@
 # FUTUREMASTER #
 
-Futurecom theme for Semantic UI.
+Futurecom's theme for Semantic UI.
 
 ### Content ###
 
