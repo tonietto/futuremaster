@@ -9,7 +9,7 @@ Futurecom's theme for Semantic UI.
 * Semantic UI build with FutureMaster:
     * assets/semantic/dist/semantic.min.css
     * assets/semantic/dist/semantic.min.js
-* FutureMaster folder:
+* FutureMaster:
     * assets/semantic/src/themes/futuremaster
 
 ## Instalation ##
