@@ -14,7 +14,7 @@ Futurecom's theme for Semantic UI.
 
 ## Instalation ##
 
-Just link the files `semantic.min.css` and `semantic.min.js` at the `head`. Or use the theme folder and follow the instructions at [semantic-ui.com](http://semantic-ui.com/introduction/build-tools.html) to customize and build it again.
+Just reference `semantic.min.css` and `semantic.min.js` inside the `head`. Or use the theme folder and follow the instructions at [semantic-ui.com](http://semantic-ui.com/introduction/build-tools.html) to customize and build it again.
 
 ## Links ##
 
