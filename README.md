@@ -1,12 +1,25 @@
 # FUTUREMASTER #
 
-Tema de Semantic UI para o Futurecom.
+Futurecom's theme for Semantic UI.
 
-### Conteúdo ###
+> Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.
 
-* Pequeno Index com exemplos
-* SUI com o tema:
+## Content ##
+
+* Semantic UI build with FutureMaster:
     * assets/semantic/dist/semantic.min.css
     * assets/semantic/dist/semantic.min.js
-* Pasta do tema:
+* Theme folder:
     * assets/semantic/src/themes/futuremaster
+
+## Instalation ##
+
+Just reference `semantic.min.css` and `semantic.min.js` inside the `<head>`. Or use the theme folder and follow the instructions at [semantic-ui.com](http://semantic-ui.com/introduction/build-tools.html) to customize and build it again.
+
+## Links ##
+
+* See FutureMaster's page at Futurecom's website [here](http://en.futurecom.com.br/futuremaster). 
+
+* Read Semantic UI docs at [semantic-ui.com](http://semantic-ui.com/).
+
+Contact [@tonietto](http://twitter.com/tonietto).
