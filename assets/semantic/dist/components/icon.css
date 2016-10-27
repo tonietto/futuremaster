@@ -535,16 +535,6 @@ for instance `lemon icon` not `lemon outline icon` since there is only one lemon
             Icons
 *******************************/
 
-@font-face {
-  font-family: FutureGlyphs;
-  src: url('http://pt.futurecom.com.br/assets/semantic_ui/dist/themes/futuremaster/assets/fonts/FutureGlyphs.eot');
-  src: url('/assets/fonts/FutureGlyphs.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/FutureGlyphs.woff') format('woff'), url('/assets/fonts/FutureGlyphs.ttf') format('truetype'), url('/assets/fonts/FutureGlyphs.svg#icons') format('svg');
-  font-style: normal;
-  font-weight: 400;
-  font-variant: normal;
-  text-decoration: inherit;
-  text-transform: none;
-}
 
 /* Web Content */
 i.icon.search:before {
@@ -3912,6 +3902,16 @@ i.fa-medium:before {
 /*====================================
 =            FugureGlyphs            =
 ====================================*/
+@font-face {
+  font-family: FutureGlyphs;
+  src: url('../themes/futuremaster/assets/fonts/FutureGlyphs.eot');
+  src: url('../themes/futuremaster/assets/fonts/FutureGlyphs.eot?#iefix') format('embedded-opentype'), url('../themes/futuremaster/assets/fonts/FutureGlyphs.ttf') format('truetype'), url('../themes/futuremaster/assets/fonts/FutureGlyphs.svg#icons') format('svg');
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none;
+}
 i[class*='icon-'] {
   font-family: 'FutureGlyphs';
   speak: none;

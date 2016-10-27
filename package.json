@@ -1,0 +1,12 @@
+{
+  "name": "FutureMaster",
+  "version": "1.0.1",
+  "description": "Futurecom's theme for Semantic UI.",
+  "main": "index.html",
+  "repository": {
+    "url": "https://github.com/tonietto/futuremaster.git",
+    "type": "git"
+  },
+  "author": "Gustavo Tonietto <tonietto@gmail.com>",
+  "license": "MIT"
+}
